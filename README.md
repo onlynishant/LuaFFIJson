@@ -2,7 +2,7 @@
 
 LuaFFIJson is JSON parser library written in LUA FFI. It uses LUA FFI to make JSON decoding very fast. 
 
-It requires LUA JIT and it's also tested with <a href="http://openresty.org/en/">OpenResty</a>.
+It requires <a href="http://luajit.org/luajit.html">LUA JIT</a> and it's also tested with <a href="http://openresty.org/en/">OpenResty</a>.
 
 JSON decode function is very fast compared to existing LUA/C based JSON decoders.
 
@@ -119,4 +119,5 @@ Output:
 </table>
 
 <b>Test condition:</b>
+
 10000 iteration for each input type with code warmup on my VM machine (2 core) on Mac OS with openresty/1.13.6.1
