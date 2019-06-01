@@ -6,11 +6,11 @@ It requires <a href="http://luajit.org/luajit.html">LUA JIT</a> and it's also te
 
 JSON decode function is very fast compared to existing LUA/C based JSON decoders.
 
-JSON encode function is slow because it is written in pure LUA.
+JSON encode function is comparatively slow because it is written in pure LUA.
 
 It has no other external dependencies.
 
-It is single file library.
+It is single file library(JsonParser.lua).
 
 It supports UTF-8 and Unicode.
 
