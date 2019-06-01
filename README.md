@@ -1,6 +1,6 @@
 # LuaFFIJson
 
-LuaFFIJson is JSON parser library written in LUA FFI. It uses LUA FFI to make JSON decoding very fast. 
+LuaFFIJson is a Fast JSON parser library written in LUA FFI. It uses LUA FFI to make JSON decoding very fast. 
 
 It requires <a href="http://luajit.org/luajit.html">LUA JIT</a> and it's also tested with <a href="http://openresty.org/en/">OpenResty</a>.
 
