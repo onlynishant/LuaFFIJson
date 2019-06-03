@@ -8,7 +8,7 @@ local bit_and = bit.band
 local bit_or = bit.bor
 local bit_lshift = bit.lshift
 
-local NGX = require("NGX")
+-- local NGX = require("NGX")
 
 local string_byte = string.byte
 -- local string_sub = string.sub
